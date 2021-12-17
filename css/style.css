@@ -10,7 +10,7 @@ body{
 }
 .main-wrapper{
     padding: 5.4rem 0 3rem 5rem;
-    display: none;
+    /* display: none; */
 }
 .logo{
     margin-left: 3rem;
@@ -85,6 +85,9 @@ nav{
 
 
 /*-----Mobile Homepage-----*/
+.mobile-main-wrapper{
+    margin-top: 0;
+}
 .mobile-nav{
     display: flex;
     align-items: center;
