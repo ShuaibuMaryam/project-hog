@@ -243,6 +243,8 @@ nav{
 }
 .hot-bids-card .card-image{
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 .hot-bids-price{
     display: grid;
