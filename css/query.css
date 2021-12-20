@@ -21,6 +21,12 @@
     }
     .desktop-nav{
         display: block;
+        opacity: 1;
+        position: relative;
+    }
+    .lines{
+        position: relative;
+        display: block;
     }
 
     .side-content{

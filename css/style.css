@@ -31,12 +31,24 @@ a{
 }
 .desktop-nav{
     margin-top: 3rem;
-    display: none;
+    /* display: none; */
+    position: absolute;
+    /* display: none; */
+    top: 0;
+    opacity: 0;
+    background: white;
+    font-weight: 800;
+    transition: 0.5s ease;
+    height: 100vh;
+}
+.side_nav_opacity{
+    opacity: 0.8;
 }
 
 
 .lines{
     position: relative;
+    display: none;
 }
 .lines > div{
     height: 2px;
