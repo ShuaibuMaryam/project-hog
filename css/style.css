@@ -13,20 +13,27 @@ a{
     color: unset;
 }
 .main-wrapper{
-    padding: 5.4rem 0 3rem 5rem;
+    /* padding: 1rem; */
     /* display: none; */
 }
 .logo{
     margin-left: 3rem;
     font-size: 20px;
     font-weight: 700;
+    display: none;
 }
 .main-content{
-    display: flex;
+    /* display: flex;
+    width: 100%; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* width: min-content; */
 }
-nav{
+.desktop-nav{
     margin-top: 3rem;
+    display: none;
 }
+
 
 .lines{
     position: relative;
@@ -61,12 +68,17 @@ nav{
 }
 
 .side-content{
-    position: absolute;
-    left: 200px;
+    /* position: absolute; */
+    /* left: 200px; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
-    margin: 4rem 4rem;
+    /* margin: 4rem 4rem; */
+}
+.side-content-wrapper{
+    /* display: grid;
+    grid-template-columns: 100%;
+    width: max-content; */
 }
 .house-of-groove{
     font-style: italic;
@@ -122,6 +134,9 @@ nav{
     background-color: rgba(0, 0, 0, 0.2);
     margin: 1px auto;
 }
+.search{
+    margin-right: 1rem;
+}
 .mobile-main-wrapper > .banner-mobile{
     width: 60%;
     margin: 1rem auto;
@@ -142,7 +157,7 @@ nav{
 }
 .category-cards-wrapper{
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 100% ;
 
 }
 .category-card{
@@ -178,6 +193,10 @@ nav{
 
 
 /*-----Hot Bids-----*/
+.hot-bids-main-wrapper{
+    display: grid;
+    grid-template-columns: 100%;
+}
 .hot-bids-card-wrapper{
     margin: 1rem;
     border: 0.931284px solid rgba(196, 196, 196, 0.5);
@@ -243,9 +262,14 @@ nav{
 }
 .hot-bids-card .card-image{
     margin-top: 1rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
     justify-content: center;
 }
+.hot-bids-card .card-image > img{
+    width: 100%;
+}
+
 .hot-bids-price{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
