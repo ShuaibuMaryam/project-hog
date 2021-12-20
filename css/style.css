@@ -41,8 +41,11 @@ a{
     transition: 0.5s ease;
     height: 100vh;
 }
+.index-display{
+    display: none !important;
+}
 .side_nav_opacity{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
