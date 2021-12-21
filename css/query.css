@@ -2,12 +2,49 @@
     .mobile-main-wrapper{
         display: none;
     }
+    .logo{
+        display: block;
+    }
+    #search-logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo > .search{
+        border: 1px solid rgba(196, 196, 196, 0.5);
+        border-radius: 30px;
+        width: 404px;
+        height: 65px;
+        display: grid;
+        align-items: center;
+        padding-left: 1rem;
+        margin-left: 2rem;
+    }
+    .logo > .search form i{
+        font-weight: lighter;
+        font-size: 1.5rem;
+        color: #C4C4C4;
+    }
+    .logo > .search form input{
+        padding: 1rem .4rem;
+        border: none;
+    }
+    .logo > .search form input:focus{
+        outline: none;
+    }
+    .logo > .search form input::placeholder{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'poppins';
+    }
     /* nav{
         display: block;
     } */
     .main-wrapper{
         display: block;
-        padding: 5.4rem 0 3rem 5rem;
+        padding: 5.4rem 0 0 5rem;
+    }
+    #remove-padding{
+        padding-top: 1rem;
     }
     .mobile-nav{
         display: none;
@@ -24,6 +61,9 @@
         opacity: 1;
         position: relative;
     }
+    #lines{
+        margin-top: 4rem;
+    }
     .lines{
         position: relative;
         display: block;
@@ -33,20 +73,20 @@
       
         position: absolute; 
         left: 200px;
-        display: grid;
-      
+        display: grid;  
         align-items: center;
         margin: 4rem 4rem;
-        
         grid-template-columns: 100%;
     }
     #home-side-content{
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    
 
     .category-cards-wrapper{
         grid-template-columns: 1fr 1fr 1fr;
-    
+        column-gap: 2rem;
     }
 
     .hot-bids-main-wrapper{

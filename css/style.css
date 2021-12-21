@@ -41,9 +41,6 @@ a{
     transition: 0.5s ease;
     height: 100vh;
 }
-.index-display{
-    display: none !important;
-}
 .side_nav_opacity{
     opacity: 0.9;
 }
@@ -94,6 +91,9 @@ a{
     /* display: grid;
     grid-template-columns: 100%;
     width: max-content; */
+}
+#home-side-content{
+    display: none;
 }
 .house-of-groove{
     font-style: italic;
@@ -149,8 +149,15 @@ a{
     background-color: rgba(0, 0, 0, 0.2);
     margin: 1px auto;
 }
-.search{
+.mobile-search{
     margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.mobile-search > i{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.2);
 }
 .mobile-main-wrapper > .banner-mobile{
     width: 60%;
@@ -178,7 +185,7 @@ a{
 .category-card{
     /* border: 1px solid red; */
     margin: 1rem;
-    height: 357px;
+    height: 303px;
     display: grid;
     grid-template-rows: 3fr 1fr;
     /* border-radius: 0px 0px 34.1837px 34.1837px ; */
@@ -252,7 +259,6 @@ a{
     font-weight: bold;
     color: #C4C4C4;
     /* display: grid; */
-    /* flex-direction: column;  */
 }
 .card-header-text .span-2{
     font-size: 12.1067px;
@@ -294,6 +300,7 @@ a{
 .hot-bids-price > .price{
     display: flex;
     font-size: 12.11px;
+    width: max-content;
 }
 .hot-bids-price > .equals{
     font-size: 12.11px;
@@ -335,4 +342,11 @@ a{
     background-color: #000000;
     border-radius: 4.65642px 4.65642px 37.2514px 4.65642px;
     padding: .5rem 2rem;
+}
+
+
+
+/*-----Explore Arts-----*/
+.explore-header{
+    
 }

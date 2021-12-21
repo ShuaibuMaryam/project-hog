@@ -4,569 +4,646 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/query.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <title>Category</title>
 </head>
 <body>
-    <section class="category">
-        <div class="heading">
-            <h4>Category</h4>
-        </div>
-        <div class="category-cards-wrapper">
-            <div class="category-card">
-                <div class="card-image" style="background-color: #FFD700;">
-                    <img src="./images/Group 4.png" alt="">
-                </div>
-                <div class="card-text">
-                    <h1>Art</h1>
-                </div>
-            </div>
-            <div class="category-card">
-                <div class="card-image" style="background-color: #117BFD;">
-                    <img src="./images/Group 4 (1).png" alt="">
-                </div>
-                <div class="card-text">
-                    <h1>Sports</h1>
-                </div>
-            </div>
-            <div class="category-card">
-                <div class="card-image" style="background-color: #FFD700;">
-                    <img src="./images/Group 4 (2).png" alt="">
-                </div>
-                <div class="card-text">
-                    <h1>Gaming</h1>
-                </div>
-            </div>
-            <div class="category-card">
-                <div class="card-image" style="background-color: #117BFD;">
-                    <img src="./images/Group 4 (3).png" alt="">
-                </div>
-                <div class="card-text">
-                    <h1>Music</h1>
-                </div>
-            </div>
-            <div class="category-card">
-                <div class="card-image" style="background-color: #FFD700;">
-                    <img src="./images/Group 4 (4).png" alt="">
-                </div>
-                <div class="card-text">
-                    <h1>Virtual Worlds</h1>
-                </div>
-            </div>
-            <div class="category-card">
-                <div class="card-image" style="background-color: #117BFD;">
-                    <img src="./images/Group 4 (5).png" alt="">
-                </div>
-                <div class="card-text">
-                    <h1>Trading Cards</h1>
-                </div>
+    <div class="main-wrapper" id="remove-padding">
+        <div class="logo" id="search-logo">
+            <h2>HOG</h2>
+            <div class="search">
+                <form action="">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search items">
+                </form>
             </div>
         </div>
-    </section>
+        <!-------Mobile nav------->
+        <nav class="mobile-nav">
+            <div class="mobile-logo">
+                <h2>HOG</h2>
+            </div>
+            <div class="right-nav">
+                <div class="house-of-groove-mobile">
+                    <span>House of groove</span>
+                </div>
+                <div class="mobile-search mobile-hamburger">
+                    <i class="far fa-search"></i>
+                </div>
+                <div class="mobile-hamburger" onclick="toggle()"> 
+                    <div class="line1" style="width: 9px;"></div>
+                    <div class="line2" style="width: 14px;"></div>
+                    <div class="line"3 style="width: 20px;"></div>
+                </div>
+            </div>
+        </nav>
 
-    <!-------Hot Bids------->
-    <section class="hot-bids">
-        <div class="heading">
-            <h4>Hot Bids</h4>
+        <div class="main-content">
+            <nav class="desktop-nav" id="desktopNav">
+                <div class="lines" id="lines">
+                    <div class="line1" style="width: 37px;"></div>
+                    <div class="line2" style="width: 74px;"></div>
+                    <div class="line3" style="width: 148px;"></div>
+                </div>
+                <ul class="nav-links">
+                    <li class="rotate">
+                        <div class="link">
+                            <a href="category.html">Nft-stores</a>
+                        </div>
+                    </li>
+                    <li class="rotate">
+                        <div class="link">
+                            <a href="#">Investors</a>
+                        </div>
+                    </li>
+                    <li class="rotate">
+                        <div class="link">
+                            <a href="#">Contact</a>
+                        </div>
+                    </li>
+                    <li class="rotate">
+                        <div class="link">
+                            <a href="#">About</a>
+                        </div>
+                    </li>
+                  
+                    <li class="rotate">
+                        <div class="link">
+                            <a href="#"><div class="nav-line" style="width: 80px; height: 2px; background-color: rgba(0, 0, 0, 0.2);"></div></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            
+
+            <div class="side-content">
+                <div class="side-content-wrapper">
+                    <section class="category">
+                        <div class="heading">
+                            <h4>Category</h4>
+                        </div>
+                        <div class="category-cards-wrapper">
+                            <div class="category-card">
+                                <div class="card-image" style="background-color: #FFD700;">
+                                    <img src="./images/Group 4.png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>Art</h1>
+                                </div>
+                            </div>
+                            <div class="category-card">
+                                <div class="card-image" style="background-color: #117BFD;">
+                                    <img src="./images/Group 4 (1).png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>Sports</h1>
+                                </div>
+                            </div>
+                            <div class="category-card">
+                                <div class="card-image" style="background-color: #FFD700;">
+                                    <img src="./images/Group 4 (2).png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>Gaming</h1>
+                                </div>
+                            </div>
+                            <div class="category-card">
+                                <div class="card-image" style="background-color: #117BFD;">
+                                    <img src="./images/Group 4 (3).png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>Music</h1>
+                                </div>
+                            </div>
+                            <div class="category-card">
+                                <div class="card-image" style="background-color: #FFD700;">
+                                    <img src="./images/Group 4 (4).png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>Virtual Worlds</h1>
+                                </div>
+                            </div>
+                            <div class="category-card">
+                                <div class="card-image" style="background-color: #117BFD;">
+                                    <img src="./images/Group 4 (5).png" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <h1>Trading Cards</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-------Hot Bids------->
+                    <section class="hot-bids">
+                        <div class="heading">
+                            <h4>Hot Bids</h4>
+                        </div>
+                        <div class="hot-bids-main-wrapper">
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-------Live Auctions------->
+                    <section class="live-auction">
+                        <div class="heading">
+                            <h4>Live Auctions</h4>
+                        </div>
+                        <div class="hot-bids-main-wrapper">
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-------Explore------->
+                    <section class="explore">
+                        <div class="heading">
+                            <h4>Explore</h4>
+                        </div>
+                        <div class="hot-bids-main-wrapper">
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-bids-card-wrapper">
+                                <div class="hot-bids-card">
+                                    <div class="card-header">
+                                        <div class="card-header-left">
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                            <div class="card-header-text">
+                                                <span>Owned by</span><br>
+                                                <div class="span-2"><span >4647TXR</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="divider"><div></div></div>
+                                        <div class="card-header-right">
+                                            <div class="card-header-text">
+                                                <span>Created by</span><br>
+                                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
+                                            </div>
+                                            <div class="card-header-image">
+                                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-image">
+                                        <img src="./images/hot-bid-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hot-bids-price">
+                                    <div class="price">
+                                        <span><b>Price:</b> ETH 5.65</span>
+                                    </div>
+                                    <div class="equals">
+                                        <span>=</span>
+                                    </div>
+                                    <div class="amount">
+                                        <span>($10.334)</span>
+                                    </div>
+                                </div>
+                                <div class="hot-bids-card-footer">
+                                    <div class="view-history">
+                                        <div class="icon">
+                                            <img src="./images/Vector.png" alt="">
+                                        </div>
+                                        <div class="history-text">
+                                            <a href="#">View History</a>
+                                        </div>
+                                    </div>
+                                    <div class="place-bid">
+                                        <a href="#">Place a Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
-        <div class="hot-bids-main-wrapper">
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-1.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-2.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-3.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-------Live Auctions------->
-    <section class="live-auction">
-        <div class="heading">
-            <h4>Live Auctions</h4>
-        </div>
-        <div class="hot-bids-main-wrapper">
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-1.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-2.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-3.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
 
-    <!-------Explore------->
-    <section class="explore">
-        <div class="heading">
-            <h4>Explore</h4>
-        </div>
-        <div class="hot-bids-main-wrapper">
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-1.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-2.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hot-bids-card-wrapper">
-                <div class="hot-bids-card">
-                    <div class="card-header">
-                        <div class="card-header-left">
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                            <div class="card-header-text">
-                                <span>Owned by</span><br>
-                                <div class="span-2"><span >4647TXR</span></div>
-                            </div>
-                        </div>
-                        <div class="divider"><div></div></div>
-                        <div class="card-header-right">
-                            <div class="card-header-text">
-                                <span>Created by</span><br>
-                                <div class="span-2" style="margin-right: .7rem;"><span >4647TXR</span></div>
-                            </div>
-                            <div class="card-header-image">
-                                <img src="./images/unsplash_A116mj5sNfg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-image">
-                        <img src="./images/hot-bid-3.png" alt="">
-                    </div>
-                </div>
-                <div class="hot-bids-price">
-                    <div class="price">
-                        <span><b>Price:</b> ETH 5.65</span>
-                    </div>
-                    <div class="equals">
-                        <span>=</span>
-                    </div>
-                    <div class="amount">
-                        <span>($10.334)</span>
-                    </div>
-                </div>
-                <div class="hot-bids-card-footer">
-                    <div class="view-history">
-                        <div class="icon">
-                            <img src="./images/Vector.png" alt="">
-                        </div>
-                        <div class="history-text">
-                            <a href="#">View History</a>
-                        </div>
-                    </div>
-                    <div class="place-bid">
-                        <a href="#">Place a Bid</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <script src="./js/script.js"></script>
 </body>
 </html>
