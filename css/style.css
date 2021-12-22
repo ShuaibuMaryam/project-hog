@@ -347,6 +347,30 @@ a{
 
 
 /*-----Explore Arts-----*/
+.explore-desktop{
+    display: none;
+}
 .explore-header{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid;
+    min-height: 313px;
+    margin: 0;
+    padding: 0;
+}
+.image-holder{
+    height: 100%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.image > img{
+    width: 100%;
+    height: 100%;
+}
+.explore-mobile{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 1fr 1fr; */
 }
