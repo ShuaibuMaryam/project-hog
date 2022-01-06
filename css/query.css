@@ -92,6 +92,48 @@
     .hot-bids-main-wrapper{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+
+    /*-----Explore Arts-----*/
+    .explore-desktop{
+        display: flex;
+        flex-direction: column;
+    }
+    .explore-header{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: min-content;
+        width: 100%;
+        left: unset;
+    }
+    .explore-heading{
+        margin-top: 1rem;
+    }
+    
+    .image{
+        width: 100%;
+        height: 200px;
+        /* background: rgba(0, 0, 0, 0.05);; */
+    }
+
+    .explore-options{
+        /* padding: 1rem; */
+        /* display: grid; */
+        grid-template-columns: 200px 250px auto;
+        /* row-gap: 1rem; */
+        align-items: center;
+        gap: 0;
+        border-top: 1px solid #C4C4C4;
+    }
+    .explore-border{
+        width: 131px;
+    }
+    .explore-recently-added{
+        display: grid;
+        justify-content: end;
+    }
+    fieldset{
+        width: 180px;
+    }
 }
 
 
