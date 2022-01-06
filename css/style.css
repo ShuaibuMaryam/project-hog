@@ -237,7 +237,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* justify-content: space-between; */
-    width: fit-content;
+    /* width: fit-content; */
 }
 .card-header-left, .card-header-right{
     display: flex;
@@ -267,7 +267,7 @@ a{
 }
 .divider{
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     align-items: center;
 }
 .divider > div{
@@ -353,17 +353,19 @@ a{
 .explore-header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px solid;
+    /* border: 1px solid; */
     min-height: 313px;
     margin: 0;
     padding: 0;
 }
 .image-holder{
     height: 100%;
+    /* background-color: #000000; */
 }
 .image{
     width: 100%;
-    height: 100%;
+    height: 90%;
+    /* background: rgba(0, 0, 0, 0.05);; */
 }
 .image > img{
     width: 100%;
@@ -373,4 +375,54 @@ a{
     display: flex;
     flex-direction: column;
     /* grid-template-rows: 1fr 1fr; */
+}
+
+.explore-heading{
+    text-align: center;
+}
+
+
+.explore-options{
+    padding: 1rem;
+    display: grid;
+    row-gap: 1rem;
+}
+.explore-options span{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: .4rem;
+}
+.explore-border, fieldset{
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.explore-border > a, fieldset > div{
+    display: flex;
+    align-items: center;
+}
+.explore-price{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.recent{
+    display: flex;
+    justify-content: end;
+}
+.recent > a{
+    color: #117BFD;
+    font-size: 14px;
+    font-weight: 500;
+}
+fieldset{
+    height: 50px;
+}
+fieldset > legend{
+    font-size: 11px;
+    font-weight: 500;
+    color: #C4C4C4;
 }
