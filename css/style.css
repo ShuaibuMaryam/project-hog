@@ -505,7 +505,8 @@ fieldset > legend{
     margin-top: 2rem;
 }
 .card{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     /* justify-content: space-between; */
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
