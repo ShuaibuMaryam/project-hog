@@ -62,7 +62,7 @@
         position: relative;
     }
     #lines{
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
     }
     .lines{
         position: relative;
@@ -70,7 +70,6 @@
     }
 
     .side-content{
-      
         position: absolute; 
         left: 200px;
         display: grid;  
@@ -83,7 +82,7 @@
         grid-template-columns: 1fr 1fr;
     }
     
-
+    /*-----Category------*/
     .category-cards-wrapper{
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 2rem;

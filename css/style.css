@@ -426,3 +426,85 @@ fieldset > legend{
     font-weight: 500;
     color: #C4C4C4;
 }
+
+
+/*-----Investment-----*/
+.investment{
+    padding: 2rem;
+}
+.investment-header{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.investment-header-left{
+    width: 100%;
+}
+.investment-header-left > img{
+    width: 100%;
+}
+
+.investment-heading > h2{
+    font-size: 28px;
+}
+.investment-heading > p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+
+.investment-header-right{
+    
+}
+.invesment-tabs{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    justify-content: space-between;
+    /* width: max-content; */
+    row-gap: 1.5rem;
+    
+}
+.right-border{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.right-border > div{
+    width: 1px;
+    background-color: #C4C4C4;
+    height: 50px;
+}
+.display{
+    display: none;
+}
+.invesment-tabs .tab > p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+.investment-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    padding: 1rem .5rem;
+    background-color: #117BFD;
+    border-radius: 5px;
+}
+.investment-button > a{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.investment-cards{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+    margin-top: 2rem;
+}
+.card{
+    display: flex;
+    /* justify-content: space-between; */
+}
