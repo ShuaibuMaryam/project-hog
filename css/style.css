@@ -507,4 +507,17 @@ fieldset > legend{
 .card{
     display: flex;
     /* justify-content: space-between; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 1rem;
+    height: 216px;
+
 }
+.card-text {
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: .6rem;
+}
+
+

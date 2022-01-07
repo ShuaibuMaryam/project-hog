@@ -133,6 +133,31 @@
     fieldset{
         width: 180px;
     }
+
+
+    /*-----Investment-----*/
+    .display{
+        display: flex;
+        justify-content: center;
+    }
+    .investment{
+        padding: 0;
+        margin-top: unset;
+    }
+    .investment-header{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+        /* align-items: start; */
+    }
+    .invesment-tabs{
+        grid-template-columns: max-content 1fr max-content 1fr max-content;
+
+    }
+    .investment-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+    }
+    
 }
 
 
