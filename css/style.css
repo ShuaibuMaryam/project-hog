@@ -515,10 +515,100 @@ fieldset > legend{
     height: 216px;
 
 }
-.card-text {
+.i-card-text {
     font-size: 13px;
     line-height: 24px;
     margin-left: .6rem;
 }
 
 
+
+/*-----How it works-----*/
+.info-1{
+   display: flex;
+   position: relative; 
+}
+.info-1-text{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+/*-----Contact-----*/
+.contact{
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 8rem 1rem 1rem 1rem;
+}
+.contact-card{
+    display: grid;
+    grid-template-rows: min-content min-content;
+    justify-content: center;
+    align-content: center;
+    height: 319px;
+    background: #FFD700;
+    border-radius: 20px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    margin-top: -8rem;
+}
+.contact-heading{
+    font-size: 28px;
+}
+.contact-info > div{
+    margin-top: 1rem;
+}
+.contact-info > div > a, .contact-info > div > i{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.contact-form{
+    margin-top: 2rem;
+}
+.contact-form form > div{
+    margin-top: 1rem;
+} 
+.contact-form form > div > input{
+    height: 41px;
+}
+.contact-form form > div > input, .contact-form form > div > textarea{ 
+    width: 100%;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 20px;
+    border: none;
+}
+.contact-form form > div > input::placeholder,
+.contact-form form > div > textarea::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1rem;
+    font-family: 'poppins';
+}
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload-file a{
+    display: flex;
+    align-items: center;
+}
+.upload-file a span{
+    font-size: 14px;
+    margin-left: .5rem;
+}
+.form-button > button{
+    background-color: #117BFD;
+    border: none;
+    border-radius: 20px;
+    height: 41px;
+    width: 120px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
