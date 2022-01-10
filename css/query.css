@@ -159,12 +159,55 @@
     }
 
 
+    /*-----contact-----*/
     .contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 100%;
         margin: 0;
     }
+
+
+
+    /*-----About-----*/
+    .about{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3rem;
+        grid-template-rows: min-content min-content;
+        /* row-gap: 2rem; */
+    }
+    .about-text{
+        display: flex;
+        align-items: flex-end;
+    }
+    .about-img{
+        margin-top: 0;
+    }
+    .about-img-1{
+        display: grid;
+        justify-content: end;
+    }
+    .about-img-1 > img{
+        width: 260px;
+        height: 266px;
+    }
+    .about-img-2{
+        display: grid;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .about-img-2 > img{
+        width: 330px;
+        height: 334px;
+    }
+    .about-img-3{
+        margin-top: 1rem;
+    }
+    .about-img-3 > img{
+        width: 447px;
+        height: 603px;
+    }
+
     
 }
 
