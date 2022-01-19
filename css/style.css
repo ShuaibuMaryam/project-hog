@@ -524,27 +524,41 @@ fieldset > legend{
 
 
 /*-----How it works-----*/
-.info-1{
-   display: flex;
-   position: relative; 
+.how-it-works-desktop{
+    display: none;
 }
-.info-1-text{
+.how-it-works-mobile{
+    display: block;
+}
+.info{
+    display: flex;
+    /* position: relative;  */
+ }
+
+/* .info-1-text{
     position: absolute;
     display: flex;
     justify-content: flex-start;
-}
+} */
 
 
 
 
 
 /*-----Contact-----*/
+.contact-wrapper{
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
 .contact{
     padding: 1rem;
     background: #FFFFFF;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     margin: 10rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 100%;
 }
 .contact-card{
     display: grid;
@@ -589,6 +603,10 @@ fieldset > legend{
     color: rgba(0, 0, 0, 0.5);
     padding: 1rem 1rem;
     font-family: 'poppins';
+}
+.contact-form form > div > input:focus,
+.contact-form form > div > textarea:focus{
+    outline: none;
 }
 .form-footer{
     display: flex;
