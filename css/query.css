@@ -99,10 +99,10 @@
         flex-direction: column;
     }
     .explore-header{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        height: min-content;
-        width: 100%;
-        left: unset;
+        display: block;
+    }
+    .explore-header-mobile{
+        display: none;
     }
     .explore-heading{
         margin-top: 1rem;

@@ -108,7 +108,7 @@ a{
     width: 780px;
     height: 260px;
 }
-.banner > img{
+.banner > svg{
     width: 100%;
     height: 100%;
 }
@@ -351,12 +351,16 @@ a{
     display: none;
 }
 .explore-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* border: 1px solid; */
-    min-height: 313px;
-    margin: 0;
-    padding: 0;
+    width: 99 vw !important;
+    margin-left: -5rem;
+    position: relative;
+    display: none;
+} 
+.explore-header > img{
+    width: 100%;
+}
+.explore-header-mobile > img{
+    width: 100%;
 }
 .image-holder{
     height: 100%;
@@ -380,6 +384,7 @@ a{
 .explore-heading{
     text-align: center;
 }
+
 
 
 .explore-options{
@@ -541,7 +546,15 @@ fieldset > legend{
     justify-content: flex-start;
 } */
 
-
+/* .hiw{
+    display: grid;
+    grid-template-columns: max-content max-content auto;
+}
+.hiw > div{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+}
+.img-1 */
 
 
 
