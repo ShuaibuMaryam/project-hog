@@ -531,7 +531,6 @@ fieldset > legend{
 .contact-wrapper{
     width: 100%;
     display: grid;
-    /* justify-content: center; */
 }
 .contact{
     padding: 1rem;
@@ -565,7 +564,6 @@ fieldset > legend{
 }
 .contact-form{
     margin-top: 2rem;
-    width: inherit !important;
 }
 .contact-form form > div{
     margin-top: 1rem;
@@ -679,9 +677,7 @@ fieldset > legend{
         font-weight: 400;
         font-family: 'poppins';
     }
-    /* nav{
-        display: block;
-    } */
+    
     .main-wrapper{
         display: block;
         padding: 5.4rem 0 0 5rem;
@@ -789,7 +785,7 @@ fieldset > legend{
         justify-content: flex-end;
     }
     .contact{
-        display: initial;
+        /* display: initial; */
         width: 75%;
         display: flex;
         justify-content: flex-end;
@@ -798,9 +794,7 @@ fieldset > legend{
     }
     .contact-wrapper{
         display: inline;
-        /* width: 100%; */
-        
-
+        width: 100%;
     }
     .contact-card-wrapper{
         display: flex;
