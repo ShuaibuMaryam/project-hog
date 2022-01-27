@@ -172,17 +172,12 @@ a{
 
 }
 .category-card{
-    /* border: 1px solid red; */
     margin: 1rem;
     height: 303px;
     display: grid;
     grid-template-rows: 3fr 1fr;
-    /* border-radius: 0px 0px 34.1837px 34.1837px ; */
 }
 .category-card > .card-image{
-    /* width: 80%; */
-    /* margin: 0 auto; */
-    /* background-color: #FFD700; */
     padding: 2rem 2rem 0 2rem;
     display: flex;
     align-items: flex-end;
@@ -230,7 +225,6 @@ a{
 }
 .card-header-left, .card-header-right{
     display: flex;
-    /* justify-content: space-between; */
 }
 .card-header-right{
     justify-content: end;

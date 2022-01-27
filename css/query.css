@@ -255,7 +255,7 @@
 
 
 @media(max-width: 768px) {
-    .category-cards-wrapper , .hot-bids-main-wrapper {
+    /* .category-cards-wrapper , .hot-bids-main-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -267,11 +267,10 @@
     }
     .right-border{
         display: flex;
-        /* align-items: center; */
         justify-content: center;
     }
     .display{
         display: block;
-    }
+    } */
     
 }
